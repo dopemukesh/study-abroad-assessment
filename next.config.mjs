@@ -4,4 +4,4 @@ const nextConfig = {
     remotePatterns: [{ protocol: 'https', hostname: 'dummyjson.com' }]
   }
 }
-export default nextConfig
+exports.nextConfig = nextConfig
